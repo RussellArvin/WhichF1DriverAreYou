@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { getDriver } from "~/ai";
+import drivers from "~/drivers";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
@@ -42,9 +43,12 @@ export const postRouter = createTRPCRouter({
       
       
       
+      // Uncomment this to integrate AI service.
+      //const driver = await getDriver(prompt)
+      //return driver;
 
-      const driver = await getDriver(prompt)
-      return driver;
+      //Comment this when AI service is integrated
+      return drivers[0]!
     }),
   hello: publicProcedure
     .input(z.object({ text: z.string() }))
