@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 web-app/node_modules
+web-app/.next/
 
 # dependencies
 /node_modules
