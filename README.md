@@ -4,7 +4,7 @@
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lenovo_Global_Corporate_Logo.png/2560px-Lenovo_Global_Corporate_Logo.png" alt="Lenovo Logo" height="60"/>
     <img src="assets/intel.png" alt="Intel Logo" height="60"/>
-    <img src="assets/gignitemain.png" alt="Gignite.ai Logo" height="60"/>
+    <img src="assets/gignite.png" alt="Gignite.ai Logo" height="60"/>
   </div>
 </div>
 
