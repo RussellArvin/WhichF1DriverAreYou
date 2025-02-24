@@ -142,7 +142,6 @@ WhatF1DriverAreYou/
 - Real-time inference using Intel's NPU
 - Optimized model performance with Intel NPU Acceleration Library
 - RESTful API for easy integration
-- Scalable architecture with separate frontend and backend services
 
 ## 📋 Requirements
 
