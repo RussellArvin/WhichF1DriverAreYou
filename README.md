@@ -1,7 +1,7 @@
 # WhatF1DriverAreYou 🏎️
 
 <div align="center">
-  <div style="display: flex; justify-content: center; align-items: center;">
+  <div style="display: flex; justify-content: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lenovo_Global_Corporate_Logo.png/2560px-Lenovo_Global_Corporate_Logo.png" alt="Lenovo Logo" height="60" style="margin: 0 50px;"/>
     <img src="assets/intel.png" alt="Intel Logo" height="60" style="margin: 0 50px;"/>
     <img src="assets/gignite.png" alt="Gignite.ai Logo" height="60" style="margin: 0 50px;"/>
