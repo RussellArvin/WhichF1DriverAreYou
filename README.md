@@ -1,19 +1,11 @@
 # WhatF1DriverAreYou 🏎️
 
 <div align="center">
-  <table cellspacing="0" cellpadding="0" border="0">
-    <tr>
-      <td width="33%" align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lenovo_Global_Corporate_Logo.png/2560px-Lenovo_Global_Corporate_Logo.png" alt="Lenovo Logo" height="80"/>
-      </td>
-      <td width="33%" align="center">
-        <img src="assets/intel.png" alt="Intel Logo" height="80"/>
-      </td>
-      <td width="33%" align="center">
-        <img src="assets/gignite.png" alt="Gignite.ai Logo" height="80"/>
-      </td>
-    </tr>
-  </table>
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 50px; background: none; border: none;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lenovo_Global_Corporate_Logo.png/2560px-Lenovo_Global_Corporate_Logo.png" alt="Lenovo Logo" height="80"/>
+    <img src="assets/intel.png" alt="Intel Logo" height="80"/>
+    <img src="assets/gignite.png" alt="Gignite.ai Logo" height="80"/>
+  </div>
 </div>
 
 An AI-powered application that tells you which Formula 1 driver matches your personality! This project showcases the power of Intel's Neural Processing Unit (NPU) by running a 2B parameter LLM model optimized for Intel hardware. The application combines a general-purpose LLM service with a specialized web interface that handles the F1 driver matching logic.
