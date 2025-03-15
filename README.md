@@ -1,4 +1,4 @@
-# WhatF1DriverAreYou 🏎️
+# WhichF1DriverAreYou 🏎️
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lenovo_Global_Corporate_Logo.png/2560px-Lenovo_Global_Corporate_Logo.png" alt="Lenovo Logo" height="60">
@@ -32,7 +32,7 @@ To check if your device has an NPU:
 
 <div align="center">
   <img src="assets/demo.png" alt="Demo at Lenovo Leaders Circle Singapore" width="300"/>
-  <p><em>WhatF1DriverAreYou demo at Lenovo Leaders Circle during the Singapore F1 Grand Prix 2024</em></p>
+  <p><em>WhichF1DriverAreYou demo at Lenovo Leaders Circle during the Singapore F1 Grand Prix 2024</em></p>
 </div>
 
 This project was showcased at the prestigious Lenovo Leaders Circle event in Singapore, coinciding with the 2024 Formula 1 Singapore Grand Prix. The demonstration highlighted the capabilities of Lenovo's NPU-enabled devices in running sophisticated AI models while maintaining high performance and energy efficiency.
@@ -49,7 +49,7 @@ The collaboration brings together Intel's AI technology, Lenovo's hardware excel
 
 ## 🚀 Project Overview
 
-WhatF1DriverAreYou consists of two main services:
+WhichF1DriverAreYou consists of two main services:
 - **AI Service**: A FastAPI backend running Intel's LLaVA-Gemma 2B model optimized for NPU, serving as a general-purpose language model endpoint
 - **Web App**: A modern, responsive frontend application developed by Gignite.ai that handles the F1 driver matching logic and user interaction
 
@@ -88,8 +88,8 @@ Note: The Intel® NPU Acceleration Library is currently in active development. F
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/WhatF1DriverAreYou.git
-cd WhatF1DriverAreYou
+git clone https://github.com/yourusername/WhichF1DriverAreYou.git
+cd WhichF1DriverAreYou
 ```
 
 2. Install dependencies:
@@ -142,7 +142,7 @@ The F1 driver matching logic and specialized prompts are handled by the web appl
 ## 🚧 Project Structure
 
 ```
-WhatF1DriverAreYou/
+WhichF1DriverAreYou/
 ├── assets/               # Project assets (logos and demo images)
 ├── ai-service/          # FastAPI service running Intel's NPU-optimized LLM
 │   ├── main.py
